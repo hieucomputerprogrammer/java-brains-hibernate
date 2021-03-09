@@ -1,5 +1,6 @@
 package dev.tech;
 
+import dev.tech.domain.UserDetails;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
@@ -21,7 +22,5 @@ public class Main {
         session.save(userDetails);
         session.getTransaction().commit();
         session.close();
-
-        userDetails = null;
     }
 }

@@ -3,7 +3,7 @@
 <!--        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"-->
 <!--        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">-->
 <!--<hibernate-mapping>-->
-<!--    <class name="dev.tech.UserDetails" table="USER_DETAILS_HIBERNATE_MAPPING_BY_XML">-->
+<!--    <class name="dev.tech.domain.UserDetails" table="USER_DETAILS_HIBERNATE_MAPPING_BY_XML">-->
 <!--        <id name="userId">-->
 <!--            <generator class="identity"></generator>-->
 <!--        </id>-->

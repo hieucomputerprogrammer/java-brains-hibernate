@@ -1,4 +1,4 @@
-package dev.tech;
+package dev.tech.domain;
 
 import javax.persistence.*;
 import java.util.Date;
